@@ -11,4 +11,126 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  
 }
+
+/* task 1 */
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  background-color: #f6f6fe;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.item h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.item ul li {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-bottom: 8px;
+}
+
+.item ul li:last-child {
+  margin-bottom: 0;
+}
+
+/* task 2 */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+img {
+  width: 360px;
+  height: 300px;
+}
+ 
+/* task 3 */
+
+#name-input {
+  margin-bottom: 16px;
+}
+
+h1 {
+margin: 0;
+}
+
+/* task 4 */
+
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+button {
+  border-radius: 8px;
+    padding-block: 8px;
+    padding-inline: 16px;
+    width: 86px;
+    height: 40px;
+
+    background: #4e75ff;
+}
+
+button[type="submit"] {
+  font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-block: 0;
+    border: none;
+    color: #fff;
+}
+
+.login-form [type="email"] {
+  width: 360px;
+  height: 40px;
+}
+
+.login-form [type="password"] {
+  margin-bottom: 16px;
+  width: 360px;
+  height: 40px;
+}
+
+/* task 5 */
+
+.widget {
+  text-align: center;
+}
+
+.change-color {
+  border-radius: 8px;
+  border: none;
+    padding-block: 8px;
+    padding-inline: 16px;
+    width: 148px;
+    height: 40px;
+
+    font-family: "Montserrat", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      color: #fff;
+
+    background: #4e75ff;
+} 
