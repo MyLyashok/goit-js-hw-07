@@ -12,6 +12,12 @@ body {
   color: #212121;
   line-height: 1.5;
   
+
+}
+
+button:hover {
+  background: #6c8cff;
+  cursor: pointer;
 }
 
 /* task 1 */
@@ -22,11 +28,23 @@ ul {
   margin: 0;
 }
 
+#categories {
+  margin: 0 auto;
+  width: 360px;
+}
+
+.item ul li {
+  width: 360px;
+    height: 40px;
+}
+
 .item {
   background-color: #f6f6fe;
   padding: 16px;
   border-radius: 8px;
   margin-bottom: 24px;
+    width: 392px;
+    height: 264px;
 }
 
 .item h2 {
@@ -73,10 +91,16 @@ margin: 0;
 
 /* task 4 */
 
+.login-form {
+  margin: 0 auto;
+    width: 360px;
+}
+
 .login-form label {
   display: flex;
   flex-direction: column;
   gap: 8px;
+
 }
 
 button {
@@ -88,6 +112,7 @@ button {
 
     background: #4e75ff;
 }
+
 
 button[type="submit"] {
   font-family: "Montserrat", sans-serif;
